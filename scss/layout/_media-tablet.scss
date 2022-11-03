@@ -1,0 +1,37 @@
+@media (max-width: 768px){
+    .carrusel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        gap: 1%;
+      
+        a {
+          width: 300px;
+          height: 190px;
+        }
+      }
+    
+    main .promos {
+        align-items: center;
+        justify-content: center;
+      
+        article {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          grid-template-areas: "1 2" "3 4";
+          gap: 10px;
+      
+          img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+      
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+} 

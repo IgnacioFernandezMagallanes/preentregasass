@@ -1,0 +1,13 @@
+.carrusel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    gap: 1%;
+  
+    a img {
+      width: 550px;
+      height: 390px;
+    }
+  }

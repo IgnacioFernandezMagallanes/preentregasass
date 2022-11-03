@@ -1,0 +1,18 @@
+@import "./base/typo";
+@import "./base/reset";
+@import "./utilities/variable";
+
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+@import "./layout/main-index";
+@import "./layout/main-opinion";
+@import "./layout/main-contacto";
+@import "./layout/main-nosotros";
+@import "./layout/main-menu";
+
+
+@import "./layout/media-tablet";
+@import "./layout/media-mobile";
